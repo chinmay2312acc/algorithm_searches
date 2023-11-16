@@ -1,0 +1,31 @@
+
+marker 
+the first item is considered to be sorted with respect ti itself 
+slect the first tiem from the unsorted list 
+insert the selected item into the corect position within the sorted list 
+advance the marker to the right by one position 
+
+quicksort 
+choose the rightmost element in the list as pivot 
+created three empty lists called left_list,middle_list and right_list 
+for each element in the list 
+if the element <pivot it goes in the left-list 
+if the element ==pivot it goes in the middle_list 
+if the element >  pivot it goes in the right_list 
+
+result is a list made up by applying steps 1-3 left_list , followed by the elements in the middle_list , followed by applying steps 1-3 to right_list 
+
+
+for example 
+
+88 46 35 11 18 22 (22 is the pivot value) 
+
+
+(11,18,12) (22) (88,46,25) 
+
+(11 12 18 )                  
+12 is the pibvot value     
+11     18
+
+
+ 
